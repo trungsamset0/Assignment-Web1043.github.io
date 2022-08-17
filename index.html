@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div class="logo">
+        <img src="images/logo.png">
+      </div>
+      <ul class="navigation">
+        <li><a href="">ARTICLES</a></li>
+        <li><a href="">VIDEOS</a></li>
+        <li><a href="">NEWSLETTER</a></li>
+        <li><a href="">GUIDES</a></li>
+        <li><a href="">DIGITALOCEAN</a></li>
+        <li><a href="">DO COMMUNITY</a></li>
+      </ul>
+      <button class="search" id="search">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+          <path fill-rule="evenodd"
+            d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z"
+            clip-rule="evenodd" />
+        </svg>
+      </button>
+    </div>
+    <div class="modal-cover" id="modal">
+      <div class="modal">
+        <div class="modal-search">
+          <input type="text" id="modal-input" placeholder="Searching ...">
+          <button id="modal-close">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+              stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+            </svg>
+          </button>
+        </div>
+        <p>Showing popular results</p>
+        <div class="modal-sort">Newest | Oldest</div>
+        <div class="modal-content">
+          <div id="modal-content" class="modal-content-item"></div>
+        </div>
+
+        <div class="modal-box" id="box1">
+          <div class="modal-header"><a href="">Resilient, Declarative, Contextual</a></div>
+          <div class="modal-desc">resilient-declarative-contextual</div>
+          <div class="modal-img1"></div>
+
+        </div>
+        <div class="modal-box" id="box2">
+          <div class="modal-header"><a href="">Fast, Good, Local Site Search with Jetpack</a> </div>
+          <div class="modal-desc">fast-good-local-site-search-with-jetpack</div>
+          <div class="modal-img2"></div>
+
+        </div>
+        <div class="modal-box" id="box3">
+          <div class="modal-header"><a href="">CSS Grid in IE: CSS Grid and the New Autoprefixer</a> </div>
+          <div class="modal-desc">css-grid-in-ie-css-grid-and-the-new-autoprefixer</div>
+          <div class="modal-img3"></div>
+
+        </div>
+        <div class="modal-box" id="box4">
+          <div class="modal-header"><a href="">Better rendering for variable fonts</a></div>
+          <div class="modal-desc">better-rendering-for-variable-fonts</div>
+          <div class="modal-img4"></div>
+
+        </div>
+        <div class="modal-box" id="box5">
+          <div class="modal-header"><a href="">101</a></div>
+          <div class="modal-desc">newsletter-101</div>
+          <div class="modal-img5"></div>
+
+        </div>
+        <div class="line"></div>
+        <div class="aside">
+          <p>Filter options</p>
+          <ul>
+            <div class="aside-header">Post Types</div>
+            <li>
+              <a href="">Post(6187)</a>
+              <a href="">Page(1579)</a>
+              <a href="">Newsletter(299)</a>
+              <a href="">Chapter(20)</a>
+            </li>
+          </ul>
+          <ul>
+            <div class="aside-header">Categories</div>
+            <li>
+              <a href="">Article(4572)</a>
+              <a href="">Link(1965)</a>
+              <a href="">Sponsored(320)</a>
+              <a href="">Poll(101)</a>
+              <a href="">Intermediate(52)</a>
+            </li>
+          </ul>
+          <ul>
+            <div class="aside-header">Tags</div>
+            <li>
+              <a href="">SVG(203)</a>
+              <a href="">accessibility(150)</a>
+              <a href="">performance(542)</a>
+              <a href="">react(152)</a>
+              <a href="">WordPress(175)</a>
+            </li>
+          </ul>
+          <ul>
+            <div class="aside-header">Year</div>
+            <li>
+              <a href="">2022(190)</a>
+              <a href="">2021(853)</a>
+              <a href="">2020(248)</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <article>
+    <img src="images/logo2.png">
+    <div class="content1">CSS-Tricks is joining the DigitalOcean community! We are so excited to be joining forces.
+      Learn more about this change</div>
+    <div class="content2"><a href="">here enjoy $100 of free credit</a></div>
+    <div class="content3">to try DigitalOcean on us.</div>
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+        <img src="images/scene1.png" style="width:100%">
+      </div>
+
+      <div class="mySlides fade">
+        <img src="images/scene2.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides fade">
+        <img src="images/scene3.jpg" style="width:100%">
+      </div>
+      <!-- <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a> -->
+    </div>
+    <!-- <img src="./images/scene1.jpg" alt="" id="banner" class="banner"> -->
+    <div class="article">
+      <div class="color2">background-attachment cross-browser safari scrolling</div>
+      <div class="article-title"><a href="">Scroll Shadows? Pure CSS Parallax? Game Back On.</a></div>
+      <div class="article-desc">Chris calls scroll shadows one his favorite CSS-Tricks of all time. Lea Verou
+        popularized the pure CSS approach using four layered background gradients with some clever background-attachment
+        magic. The result is a slick scrolling interaction that gives users a hint that additional content is available
+        in a scrollable container. Just one problem: it broke in […]</div>
+      <div class="article-author">
+        <img src="images/author3.png">
+        <div class="author-name">Geoff Graham <i>on Jul 29, 2022</i>
+        </div>
+      </div>
+    </div>
+
+    <div class="logo3">
+      <img src="images/logo3.png">
+    </div>
+
+    <button id="create-article">Create new article</button>
+    <form action="" id="user-form">
+      <div id="create-form">
+        <h1>Create new article</h1>
+        <div class="group"><label for="title" style="position:absolute;top: 150px; left: 50px;">Title</label>
+          <input type="text" name="title" id="title" style="position:absolute;top: 180px; left: 50px;">
+          <div class="error hidden" style="position:absolute;top: 230px; left: 50px; font-size: 16px;"></div>
+        </div>
+        <div class="group"><label for="image" style="position:absolute;top: 250px; left: 50px;">Image</label>
+          <input type="text" name="image" id="image" style="position:absolute;top: 280px; left: 50px;">
+          <div class="error hidden" style="position:absolute;top: 330px; left: 50px; font-size: 16px;"></div>
+        </div>
+        <div class="group"><label for="composer" style="position:absolute;top: 350px; left: 50px;">Composer</label>
+          <input type="text" name="composer" id="composer" style="position:absolute;top: 380px; left: 50px;">
+          <div class="error hidden" style="position:absolute;top: 430px; left: 50px; font-size: 16px;"></div>
+        </div>
+        <div class="group"><label for="email" style="position:absolute;top: 450px; left: 50px;">Email</label>
+          <input type="email" name="email" id="email" style="position:absolute;top: 480px; left: 50px;">
+          <div class="error hidden" style="position:absolute;top: 530px; left: 50px; font-size: 16px;"></div>
+        </div>
+        <div class="group"><label for="desc" style="position:absolute;top: 550px; left: 50px;">Description</label>
+          <input type="email" name="desc" id="desc" style="position:absolute;top: 580px; left: 50px; height: 200px;">
+          <div class="error hidden" style="position:absolute;top: 785px; left: 50px; font-size: 16px; "></div>
+        </div>
+        <button id="close-article">Đóng lại</button>
+        <button id="submit-article">Tạo mới</button>
+      </div>
+    </form>
+
+    <div class="box2" style="margin-left: 220px;">
+      <img src="images/v1.png" alt="">
+      <h1>Recreating <br> MDN’s Truncated Text Effect</h1>
+      <p id="article-desc">It’s no secret that MDN <br> back in March. It’s gorgeous! And there are some sweet CSS-y
+        gems in it that are fun to look at. One of those gems is how card components handle truncated …</p>
+      <img src="images/author3.png" id="author" alt="">
+      <p id="author-name">Geoff Graham <i>on Jul 28,2022</i></p>
+    </div>
+    <div class="box2">
+      <img src="images/v2.png" alt="">
+      <img src="images/author1.png" id="author" alt="">
+      <p id="author-name">Sunkanmi Fafowora <i>on <br> Jul 28,2022</i></p>
+      <p id="article-desc">CSS pseudo-class is used with the <br> at-rule to select the first page in a printed
+        document. It’s very similar to the way <br>selector works to target the first child element in a parent
+        container, but instead …</p>
+      <h1>:first</h1>
+    </div>
+    <div class="box2">
+      <img src="images/icon2.png" alt="">
+      <img src="images/author2.png" id="author" alt="">
+      <p id="author-name">Mojtaba Seyedi <i>on Jul 27,2022</i></p>
+      <p id="article-desc">that allows us to control the flow of grid items that are automatically placed when they are
+        not explicitly positioned with any grid-placement properties.</p>
+      <h1>grid-auto-flow</h1>
+    </div>
+    <div class="box2">
+      <img src="images/icon5.png" alt="">
+      <img src="images/author2.png" id="author" alt="">
+      <p id="author-name">Mojtaba Seyedi <i>on Jul 27,2022</i></p>
+      <p id="article-desc">that allows us to control the flow of grid items that are automatically placed when they are
+        not explicitly positioned with any grid-placement properties.</p>
+      <h1>grid-auto-flow</h1>
+    </div>
+    <div class="box3 hiddenv1" style="margin-left: 220px; margin-top: 100px;">
+      <img src="images/icon2.png" alt="">
+      <img src="images/author3.png" id="author1" alt="">
+      <p id="author-name1">Geoff Graham <i>on Jul 28,2022</i></p>
+      <h1>Recreating <br> MDN’s Truncated Text Effect</h1>
+      <p id="article-desc1">It’s no secret that MDN <br> back in March. It’s gorgeous! And there are some sweet CSS-y
+        gems in it that are fun to look at. One of those gems is how card components handle truncated …</p>
+      <img src="images/author3.png" id="author" alt="">
+    </div>
+    </div>
+    <div class="box3 hiddenv2" style="margin-top: 100px;">
+      <img src="images/icon3.png" alt="">
+      <p id="author-name1">Mojtaba Seyedi <i>on Jul 27,2022</i></p>
+      <img src="images/author1.png" id="author1" alt="">
+      <p id="article-desc1">CSS pseudo-class is used with the <br> at-rule to select the first page in a printed
+        document. It’s very similar to the way <br>selector works to target the first child element in a parent
+        container, but instead …</p>
+      <h1>:first</h1>
+    </div>
+    <div class="box3 hiddenv3" style="margin-top: 100px;">
+      <img src="images/v2.png" alt="">
+      <p id="author-name1">Mojtaba Seyedi <i>on Jul 27,2022</i></p>
+      <p id="article-desc1">that allows us to control the flow of grid items that are automatically placed when they are
+        not explicitly positioned with any grid-placement properties.</p>
+      <img src="images/author2.png" id="author1" alt="">
+      <h1>grid-auto-flow</h1>
+    </div>
+    <div class="box3 hiddenv4" style="margin-top: 100px;">
+      <img src="images/v1.png" alt="">
+      <h1>grid-auto-flow</h1>
+      <p id="author-name1">Mojtaba Seyedi <i>on Jul 27,2022</i></p>
+      <p id="article-desc1">that allows us to control the flow of grid items that are automatically placed when they are
+        not explicitly positioned with any grid-placement properties.</p>
+      <img src="images/author2.png" id="author1" alt="">
+    </div>
+
+    <button id="load-more">Load more</button>
+
+  </article>
+
+  <footer>
+    <div class="box">
+      <div class="box-content1">KEEP UP TO DATE ON WEB DEV</div>
+      <div class="box-content2">with our hand-crafted newsletter</div>
+      <input type="text" placeholder="Email Address: *" class="box-email">
+      <button class="box-subscribe">Subscribe</button>
+    </div>
+    <div class="header1">CSS-Tricks is powered by <b>DigitalOcean</b>.</div>
+    <ul class="footer1">
+      <li>
+        <div class="color2">DIGITALOCEAN</div>
+      </li>
+      <li><a href="">DigitalOcean</a></li>
+      <li><a href="">DigitalOcean Community</a></li>
+      <li><a href="">About DigitalOcean</a></li>
+      <li><a href="">Legal</a></li>
+      <li><a href="">Free Credit Offer</a></li>
+    </ul>
+    <ul class="footer2">
+      <li>
+        <div class="color2">CSS-TRICKS</div>
+      </li>
+      <li><a href="">Email</a></li>
+      <li><a href="">Guest Writing</a></li>
+      <li><a href="">Book</a></li>
+      <li><a href="">Advertising</a></li>
+    </ul>
+    <ul class="footer3">
+      <li class="color2">Follow</li>
+      <li><a href="">Twitter</a></li>
+      <li><a href="">Instagram</a></li>
+      <li><a href="">Youtube</a></li>
+    </ul>
+    <ul class="footer4">
+      <li><a href="">CodePen</a></li>
+      <li><a href="">iTunes</a></li>
+      <li><a href="">RSS</a></li>
+    </ul>
+  </footer>
+
+  <script>
+    //Slideshow
+    let slideIndex = 0;
+    showSlides();
+    function showSlides() {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) { slideIndex = 1 }
+      slides[slideIndex - 1].style.display = "block";
+      setTimeout(showSlides, 2500);
+    }
+    var search = document.getElementById("search");
+    var modal = document.getElementById("modal");
+    var modalCloseBtn = document.getElementById("modal-close");
+    var inputSearch = document.getElementById("modal-input");
+    var modalContent = document.getElementById("modal-content");
+    var submitArticle = document.querySelector("#submit-article");
+    var loadMore = document.querySelector("#load-more");
+
+
+
+
+
+    //Modal box
+    var modalBox1 = document.getElementById("box1");
+    var modalBox2 = document.getElementById("box2");
+    var modalBox3 = document.getElementById("box3");
+    var modalBox4 = document.getElementById("box4");
+    var modalBox5 = document.getElementById("box5");
+
+    //Modal create form
+    var createArticle = document.getElementById("create-article")
+    var createForm = document.getElementById("create-form")
+    var closeArticle = document.getElementById("close-article")
+
+    //Search value
+    var array = [
+      "Resilient, Declarative, Contextual",
+      "Fast, Good, Local Site Search with Jetpack",
+      "CSS Grid in IE: CSS Grid and the New Autoprefixer",
+      "Better rendering for variable fonts",
+      "101"
+    ];
+    var arrayImg = [
+      modalBox1, modalBox2, modalBox3, modalBox4, modalBox5
+    ];
+
+    // Form field
+    var formField = ["title", "image", "composer", "email", "desc"];
+    var users = [];
+
+    //Function
+    search.addEventListener("click", function () {
+      openModal();
+    });
+    modalCloseBtn.onclick = function () {
+      closeModal();
+    };
+    function openModal() {
+      modal.style.display = "flex";
+    }
+    function closeModal() {
+      modal.style.display = "none";
+    }
+    createArticle.addEventListener("click", function () {
+      openForm();
+    })
+    closeArticle.addEventListener("click", function () {
+      closeForm();
+    })
+    function openForm() {
+      createForm.style.display = "flex";
+    }
+    function closeForm() {
+      createForm.style.display = "none";
+    }
+    function showError(element, message) {
+      var temp = element.nextElementSibling;
+      temp.innerHTML = message;
+      temp.classList.remove("hidden");
+    }
+    submitArticle.onclick = function () {
+      event.preventDefault();
+      // State
+      isError = false;
+      data = {};
+      // Remove hidden
+      var errors = document.querySelectorAll(".error");
+      errors.forEach(function (e) {
+        e.classList.add("hidden");
+      });
+      // Validate
+      formField.forEach(function (field) {
+        var element = document.getElementById(field);
+        var reg = /([\w]+)(@)([\w\.]+)/;
+        if (field === "title") {
+          if (element.value.trim().length < 10) {
+            showError(element, "Title phải trên 10 ký tự");
+            isError = true;
+          }
+        }
+        if (field === "email") {
+          if (reg.test(element.value.trim()) === false) {
+            showError(element, "Sai định dạng email");
+            isError = true;
+          }
+        }
+        if (field === "desc") {
+          if (element.value.trim().length < 20) {
+            showError(element, "Description phải trên 20 ký tự");
+            isError = true;
+          }
+        }
+        if (element.value.trim() === "") {
+          showError(element, "Trường dữ liệu bắt buộc");
+          isError = true;
+        }
+        data[field] = element.value;
+      });
+      if (!isError) {
+        console.log("Form đã được gửi đi");
+0
+      } else {
+        console.log("Đã có lỗi xảy ra");
+      }
+    };
+
+
+    var hiddenv1 = document.querySelector(".hiddenv1")
+    var hiddenv2 = document.querySelector(".hiddenv2")
+    var hiddenv3 = document.querySelector(".hiddenv3")
+    var hiddenv4 = document.querySelector(".hiddenv4")
+    var body = document.querySelector("body")
+    var footer = document.querySelector("footer")
+    var logo3 = document.querySelector(".logo3")
+    loadMore.addEventListener("click", function () {
+      hiddenv1.style.display = "flex"
+      hiddenv2.style.display = "flex"
+      hiddenv3.style.display = "flex"
+      hiddenv4.style.display = "flex"
+      loadMore.style.top = "2200px"
+      body.style.minHeight = "2300px"
+      footer.style.bottom = "-1800px"
+      logo3.style.bottom = "-1535px"
+      console.log("Hello")
+    }
+    );
+    //Render
+    function render(array) {
+      var content = "";
+      for (var i = 0; i < array.length; i++) {
+        // content += "<div>" + array[i] + "</div>";
+        content += arrayImg[i].innerHTML;
+        modalContent.innerHTML = content;
+      }
+    }
+    render(array);
+    inputSearch.onkeyup = function (event) {
+      var newArray = array.filter(function (item) {
+        if (item.indexOf(event.target.value) > -1) {
+          return true;
+        }
+      });
+      render(newArray);
+      console.log(event.target.value);
+      console.log(newArray);
+    };
+  </script>
+</body>
+
+</html>
